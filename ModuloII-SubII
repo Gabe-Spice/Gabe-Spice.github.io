@@ -1,229 +1,97 @@
-<html>
-<head>
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
-	mso-generic-font-family:roman;
-	mso-font-format:other;
-	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
-@font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-1610611985 1073750139 0 0 415 0;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1073786111 1 0 415 0;}
-@font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 5 2 4 2 4 2 2 3;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-format:other;
-	mso-font-pitch:variable;
-	mso-font-signature:3 0 0 0 1 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
-h1
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Título 1 Car";
-	mso-style-next:Normal;
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:16.0pt;
-	font-family:"Calibri Light","sans-serif";
-	mso-ascii-font-family:"Calibri Light";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Calibri Light";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#2E74B5;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-font-kerning:0pt;
-	font-weight:normal;}
-p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-priority:99;
-	mso-style-link:"Encabezado Car";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	tab-stops:center 3.25in right 6.5in;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
-p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-priority:99;
-	mso-style-link:"Pie de página Car";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	tab-stops:center 3.25in right 6.5in;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Texto de globo Car";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:9.0pt;
-	font-family:"Segoe UI","sans-serif";
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-bidi-font-family:"Segoe UI";}
-span.Ttulo1Car
-	{mso-style-name:"Título 1 Car";
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Título 1";
-	mso-ansi-font-size:16.0pt;
-	mso-bidi-font-size:16.0pt;
-	font-family:"Calibri Light","sans-serif";
-	mso-ascii-font-family:"Calibri Light";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Calibri Light";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#2E74B5;
-	mso-themecolor:accent1;
-	mso-themeshade:191;}
-span.TextodegloboCar
-	{mso-style-name:"Texto de globo Car";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Texto de globo";
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;
-	font-family:"Segoe UI","sans-serif";
-	mso-ascii-font-family:"Segoe UI";
-	mso-hansi-font-family:"Segoe UI";
-	mso-bidi-font-family:"Segoe UI";}
-span.EncabezadoCar
-	{mso-style-name:"Encabezado Car";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Encabezado;}
-span.PiedepginaCar
-	{mso-style-name:"Pie de página Car";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Pie de página";}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
- /* Page Definitions */
-</style>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Erick Gabriel  by Gabe-Spice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Erick Gabriel </h1>
+      <h2 class="project-tagline"></h2>
+    </section>
 
-</head>
+    <section class="main-content">
+      <h3>
+<a id="san-diego" class="anchor" href="#san-diego" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>San Diego.</h3>
 
-<body lang=EN-US style='tab-interval:.5in'>
+<ul>
+<li>Old Town.</li>
+<li>La Jolla.</li>
+</ul>
 
-<div class=WordSection1>
+<h3>
+<a id="los-angeles" class="anchor" href="#los-angeles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Los Angeles</h3>
 
-<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
+<ul>
+<li>Hollywood.</li>
+<li>Beverly Hills.</li>
+<li>Santa Monica.</li>
+<li>Westwood.</li>
+</ul>
 
-<h1 style='border:none;mso-border-bottom-alt:solid windowtext .5pt;padding:
-0in;mso-padding-alt:0in 0in 1.0pt 0in'><span lang=ES-MX style='mso-ansi-language:
-ES-MX'>MODULO II: REALIZA MANTENIMIENTO CORRECCTIVO<o:p></o:p></span></h1>
+<h3>
+<a id="san-francisco" class="anchor" href="#san-francisco" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>San Francisco</h3>
 
-</div>
+<ul>
+<li>Golden Gate.</li>
+<li>China Town.</li>
+<li>Union Square.</li>
+<li>Painted Ladies.</li>
+<li>Lombart</li>
+</ul>
 
+<h3>
+<a id="las-vegas" class="anchor" href="#las-vegas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Las Vegas</h3>
 
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-normal'><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
-style='color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:
-ES-MX'>Actividad 01:<o:p></o:p></span></b></p>
+<ul>
+<li>Freemont.</li>
+<li>
+</ul>
 
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'> Crear una tabla en Microsoft Excel en donde se haga mencion de las 15 analogias que escribiste en tu libreta.<o:p></o:p></span></p>
+<h3>
+<a id="new-york" class="anchor" href="#new-york" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>New York</h3>
 
-</div>
+<ul>
+<li>Central Park.</li>
+<li>Times Square.</li>
+</ul>
 
-</body>
+<h3>
+<a id="washington" class="anchor" href="#washington" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Washington</h3>
 
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a id="chicago" class="anchor" href="#chicago" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chicago</h3>
+
+<ul>
+<li>Agora.</li>
+<li>Millenium Park.</li>
+<li>Boys Town.</li>
+<li>Lincoln Park.</li>
+</ul>
+
+<h3>
+<a id="miami" class="anchor" href="#miami" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miami</h3>
+
+<ul>
+<li>Miami Beach.</li>
+<li>Wynwood.</li>
+<li>Biscaya.</li>
+</ul>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
 </html>
-

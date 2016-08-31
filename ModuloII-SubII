@@ -1,46 +1,376 @@
-CARRERA TÉCNICO EN SOPORTE Y MANTENIMIENTO DE EQUIPO DE CÓMPUTO
-MODULO II - SUBMODULO II: REALIZAR MANTENIMIENTO CORRECTIVO
+<html>
 
+<head>
 
-1. Conceptos de mantenimiento correctivo
-1.1. Analogías de mantenimiento correctivo
-1.2. ¿Qué es mantenimiento correctivo para PC's?
-1.3. Tipos de mantenimiento correctivo para la PC's
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Título 1 Car";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#2E74B5;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:0pt;
+	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"Encabezado Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"Pie de página Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Texto de globo Car";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Segoe UI","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:"Segoe UI";}
+span.Ttulo1Car
+	{mso-style-name:"Título 1 Car";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Título 1";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Calibri Light","sans-serif";
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#2E74B5;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.TextodegloboCar
+	{mso-style-name:"Texto de globo Car";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Texto de globo";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Segoe UI","sans-serif";
+	mso-ascii-font-family:"Segoe UI";
+	mso-hansi-font-family:"Segoe UI";
+	mso-bidi-font-family:"Segoe UI";}
+span.EncabezadoCar
+	{mso-style-name:"Encabezado Car";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Encabezado;}
+span.PiedepginaCar
+	{mso-style-name:"Pie de página Car";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Pie de página";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+</style>
 
-2. Elementos esenciales para realizar el mantenimiento correctivo
-2.1. Área de trabajo
-2.2. Mesa de trabajo
-2.3. Herramientas necesarias
-2.4. Utilerías (Norton Ghost)
-2.5. Medidas de seguridad
+</head>
 
-3. Procedimiento para el mantenimiento correctivo
-3.1. ¿Qué es un procedimiento?
-3.2. Pasos a seguir para el mantenimiento
+<body lang=EN-US style='tab-interval:.5in'>
 
-4. Diagnosticar el funcionamiento e identificación de fallas.
-4.1. Entrevista al usuario
-4.2. Revisión visual
+<div class=WordSection1>
 
-5. Determinar las fallas comunes y sus posibles soluciones.
-5.1. Hardware
-5.1.1. Gabinete
-5.1.2. Tarjeta madre
-5.1.3. Fuente de poder
-5.1.4. RAM
-5.1.5. DÍSCO Duro
-5.1.6. Tarjetas de Expansión
-5.1.7. Discos Flexibles
-5.1.8. Cables de alimentación y Bus de datos
-5.1.9. Instalación eléctrica
-5.2. Software 5.2.1. BIOS
-5.2.2. Sistema Operativo
-5.2.3. Aplicaciones
+<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
+mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
 
-6. Elaborar reportes de mantenimiento correctivo de hardware.
-6.1. Recepción del equipo físico
-6.2. Inventario del software y drivers
-6.3. Reporte de entrega
+<h1 style='border:none;mso-border-bottom-alt:solid windowtext .5pt;padding:
+0in;mso-padding-alt:0in 0in 1.0pt 0in'><span lang=ES-MX style='mso-ansi-language:
+ES-MX'>CARRERA TÉCNICO EN SOPORTE Y MANTENIMIENTO DE EQUIPO DE CÓMPUTO<o:p></o:p></span></h1>
 
-7. Presupuesto de reparación
+</div>
+
+<h1><span lang=ES-MX style='mso-ansi-language:ES-MX'>MODULO II - SUBMODULO II:
+REALIZAR MANTENIMIENTO CORRECTIVO<o:p></o:p></span></h1>
+
+<p>1. Conceptos de mantenimiento correctivo</b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>1.1. Analogías de
+mantenimiento correctivo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>1.2. ¿Qué es
+mantenimiento correctivo para <span class=SpellE>PC's</span>?<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>1.3. Tipos de
+mantenimiento correctivo para la <span class=SpellE>PC's</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:
+ES-MX'>2. Elementos esenciales para realizar el mantenimiento correctivo<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>2.1. Área de trabajo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>2.2. Mesa de trabajo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>2.3. Herramientas
+necesarias<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>2.4. Utilerías (Norton
+<span class=SpellE>Ghost</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>2.5. Medidas de
+seguridad<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:
+ES-MX'>3. Procedimiento para el mantenimiento correctivo<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>3.1. ¿Qué es un
+procedimiento?<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>3.2. Pasos a seguir
+para el mantenimiento<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:
+ES-MX'>4. Diagnosticar el funcionamiento e identificación de fallas.<o:p></o:p></span></b></p>
+
+<p>4.1. Entrevista al usuario</p>
+
+<p>4.2. Revisión visual</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:
+ES-MX'>5. Determinar las fallas comunes y sus posibles soluciones.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>5.1. Hardware<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.1. Gabinete<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.2. Tarjeta madre<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.3. Fuente de poder<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.4. RAM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.5. DÍSCO Duro<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.6. Tarjetas de Expansión<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.7. Discos Flexibles<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.8. Cables de alimentación y Bus de datos<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.1.9. Instalación eléctrica<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>5.2. Software 5.2.1.
+BIOS<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.2.2. Sistema Operativo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>5.2.3. Aplicaciones<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:
+ES-MX'>6. Elaborar reportes de mantenimiento correctivo de hardware.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>6.1. Recepción del
+equipo físico<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><span lang=ES-MX style='mso-ansi-language:ES-MX'>6.2. Inventario del
+software y drivers<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'>6.3. <span class=SpellE>Reporte</span> de <span class=SpellE>entrega</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal'><o:p>&nbsp;</o:p></p>
+
+<p>7. Presupuesto de reparación</b></p>
+
+</div>
+
+</body>
+
+</html>
 
